@@ -12,6 +12,11 @@
 
 This repository contains the implementation of advanced Part-of-Speech (POS) tagging models using BiLSTM-CRF and BERT-CRF architectures enhanced with Virtual Adversarial Training (VAT). The project explores state-of-the-art approaches to sequence labeling in Natural Language Processing.
 
+## 🚀 Run on Google Colab
+
+🔗 [Open the Notebook in Google Colab](https://colab.research.google.com/drive/1xD_twIV6z6kD_YH3LAM0j-4j7Q6I7mUf)
+
+
 ## 🎯 Project Overview
 
 Part-of-Speech tagging is a fundamental task in Natural Language Processing that involves assigning grammatical categories (e.g., noun, verb, adjective) to each word in a sentence. This project implements and compares multiple deep learning approaches:
