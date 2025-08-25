@@ -1,8 +1,14 @@
-# NLP Part-of-Speech (POS) Tagging with Virtual Adversarial Training
+# NLP Part-of-Speech (POS) Tagging with Adversarial Training
 
 [![Python](https://img.shields.io/badge/Python-3.7%2B-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.9%2B-red.svg)](https://pytorch.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
+[![NLP](https://img.shields.io/badge/NLP-Text%20Processing-green.svg)](https://en.wikipedia.org/wiki/Natural_language_processing)
+[![POS Tagging](https://img.shields.io/badge/POS-Tagging-yellow.svg)](https://en.wikipedia.org/wiki/Part-of-speech_tagging)
+[![Adversarial Training](https://img.shields.io/badge/Adversarial-Training-critical.svg)](https://arxiv.org/abs/1412.6572)
+[![Dataset](https://img.shields.io/badge/Dataset-CSV-lightgrey.svg)]()
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 
 This repository contains the implementation of advanced Part-of-Speech (POS) tagging models using BiLSTM-CRF and BERT-CRF architectures enhanced with Virtual Adversarial Training (VAT). The project explores state-of-the-art approaches to sequence labeling in Natural Language Processing.
 
@@ -22,24 +28,12 @@ Part-of-Speech tagging is a fundamental task in Natural Language Processing that
 - 📚 **Multiple Datasets**: Support for Universal Dependencies (UD) CoNLL-U format
 - 🎨 **Visualization**: Performance visualization and error analysis tools
 
-## 📁 Project Structure
-
-```
-NLP-POS-Tagging/
-├── NLP-Colab-Notebook.ipynb      # Main implementation notebook
-├── NLP-Conference-Paper.pdf       # Research paper documentation
-├── california_housing_test.csv    # Sample dataset (housing)
-├── california_housing_train.csv   # Sample dataset (housing)
-├── mnist_test.csv                 # Sample dataset (MNIST)
-├── mnist_train_small.csv          # Sample dataset (MNIST)
-└── README.md                      # This file
-```
 
 ## 🛠️ Installation
 
 ### Prerequisites
 
-- Python 3.7 or higher
+- Python 3.10+ or higher
 - CUDA-compatible GPU (recommended for faster training)
 
 ### Required Dependencies
@@ -281,9 +275,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions, suggestions, or collaborations:
 
-- **Email**: [your-email@example.com](mailto:your-email@example.com)
-- **GitHub**: [Your GitHub Profile](https://github.com/yourusername)
-- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
+- **Email**: [yuvarajpanditrathod@gmail.com](mailto:yuvarajpanditrathod@gmail.com)  
+- **GitHub**: [yuvarajpanditrathod](https://github.com/yuvarajpanditrathod)  
+- **LinkedIn**: [Yuvaraj P Rathod](https://linkedin.com/in/yuvarajpanditrathod)  
+
 
 ## 🙏 Acknowledgments
 
@@ -291,14 +286,4 @@ For questions, suggestions, or collaborations:
 - **Hugging Face**: For the Transformers library and pre-trained models
 - **PyTorch Team**: For the excellent deep learning framework
 - **Research Community**: For foundational work in POS tagging and adversarial training
-
-## 📖 References
-
-1. Huang, Z., Xu, W., & Yu, K. (2015). Bidirectional LSTM-CRF models for sequence tagging.
-2. Miyato, T., et al. (2018). Virtual adversarial training: a regularization method for supervised and semi-supervised learning.
-3. Devlin, J., et al. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding.
-4. Lafferty, J., McCallum, A., & Pereira, F. (2001). Conditional random fields: Probabilistic models for segmenting and labeling sequence data.
-
----
-
-**⭐ If you find this project helpful, please consider giving it a star!**
+ find this project helpful, please consider giving it a star!**
